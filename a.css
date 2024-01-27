@@ -1,0 +1,201 @@
+header{
+   
+    display: flex;
+     background-image: linear-gradient(rgb(146, 231, 149),rgb(138, 246, 85),rgb(15, 118, 7));
+     height: 160px;
+}
+nav ul li
+{
+
+    display: inline-block;
+    padding: 15px;
+    padding-top: 10px;
+
+    
+}
+
+nav ul li a 
+{
+   
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 50px;
+}
+
+    .grid{
+    
+        display: grid;
+        display: flex;
+        
+    }
+    .para{
+        font-size:medium;
+    }
+    
+#products h1{
+text-align: center;
+}
+.grid1{
+    display: grid;
+    display: flex;
+
+    
+}
+.grid1 h1{
+    text-align: right;
+}
+.car1 h2{
+    text-align: right;
+    color: black;
+    margin-left: 100px;
+}
+
+.car2,.car3,.car4,.car4,.car5{
+    padding: 0px 0px 0px 100px;
+}
+
+*/
+#products{
+   background-color: white;
+    margin-top: 5px;
+    padding: 0%;
+}
+#products h2{
+    text-align: left;
+    font-size: xx-large;
+    padding: 10px;
+    
+}
+.grid1{
+    width: 100%;
+    height: 600px;
+    overflow: auto auto;
+    white-space: nowrap;
+    padding: 80px;
+}
+.grid1 .car1{
+    display: inline-block;
+    width: 8000px;
+    padding: 0px 600px 0 px 0px;
+}
+.grid1 .car2{
+    display: inline-block;
+    width: 8000px;
+}
+
+#carousel {
+    width: 100%;
+    height:700px;
+    background-color: rgb(78, 204, 10);
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#carousel .slide {
+    display: inline-block;
+}
+#videos h2{
+    text-align: center;
+}
+
+.gridiii{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding-left: 150px;
+}
+.iteml,.itemk,.itemm{
+    gap: 10px;
+    width: 300px;
+    background-color: ghostwhite;
+}
+#contact {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    flex: 100%; /* Full width for the heading */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: space-around; /* Adjust as needed */
+    align-items: stretch;
+    width: 100%; /* Full width for the row */
+}
+
+#contact iframe,
+#contact form {
+    flex: 1; /* Equal width for both the map and form */
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputbox {
+    margin-bottom: 15px;
+    padding-left: 150px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 300px;
+    padding: 10px;
+    
+}
+
+#btn
+{
+background-color:rgb(32, 158, 22);
+color:black;
+font-size: 20px;
+padding-left: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+width: 50px;
+
+}
+
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 40px;
+
+}
+.itemp,.itemq,.itemt{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+   
+    
+}
+footer{
+    background-image: linear-gradient(rgb(146, 231, 149),rgb(138, 246, 85),rgb(15, 118, 7));
+        background-size: 400px;
+        height: 130px;
+        text-align: center;
+        color:rgb(15, 118, 7);
+    }
+html{
+    background-image: url("https://freedesignfile.com/upload/2015/03/Nature-green-blurred-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
